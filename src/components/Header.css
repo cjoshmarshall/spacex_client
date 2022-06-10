@@ -1,13 +1,17 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: fixed;
+    margin: auto;
     width: 100%;
-    padding: 36px;
 }
 
 .header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px;
+}
+
+.header_subcontainer{
     display: block;
 }
 
@@ -19,9 +23,11 @@
     display: flex;
     justify-content: space-between;
     width: 384px;
+    list-style: none;
 }
 .header_list{
     font-size: 20px;
+    padding: 0;
 }
 
 .header_link{

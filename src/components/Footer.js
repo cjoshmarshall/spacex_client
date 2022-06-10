@@ -4,7 +4,6 @@ import "./Footer.css"
 
 function Footer() {
   return (
-    <>
     <div className='footer'>
         <div className='footer_container'>
             <p className='footer_title'>SPACEX@2022</p>
@@ -18,7 +17,6 @@ function Footer() {
             </ul>
         </div>
     </div>
-    </>
   )
 }
 

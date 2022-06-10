@@ -1,17 +1,20 @@
 .home_container1{
+    display: block;
     height: 100vh;
     background-image: url("../assets/home1.png");
     background-size: cover;
-    font-weight: bold;
 }
 
 .home_subcontainer1{
     display: block;
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .home_title1{
-    padding: 128px;
+    margin: auto;
+    padding: 128px 0 108px 0;
     font-size: 48px;
     letter-spacing: 1.25px;
 }
@@ -29,22 +32,11 @@
     padding-top: 108px;
 }
 
-.home_button1{
-    padding: 12px 18px 12px 18px;
-    font-size: 18px;
-    border: 2px solid white;
-    transition: 150ms ease-out;
-}
-.home_button1:hover{
-    color: black;
-    background-color: white;
-}
 
 .home_container2{
     height: 100vh;
     background-image: url("../assets/home2.jpg");
     background-size: cover;
-    font-weight: bold;
 }
 
 .home_subcontainer2{
@@ -69,22 +61,11 @@
     margin-top: 32px;
 }
 
-.home_button2{
-    padding: 12px 18px 12px 18px;
-    font-size: 18px;
-    border: 2px solid white;
-    transition: 150ms ease-out;
-}
-.home_button2:hover{
-    color: black;
-    background-color: white;
-}
 
 .home_container3{
     height: 100vh;
     background-image: url("../assets/home3.jpg");
     background-size: cover;
-    font-weight: bold;
 }
 
 .home_subcontainer3{
@@ -107,15 +88,4 @@
 
 .home_buttonContainer3{
     margin-top: 32px;
-}
-
-.home_button3{
-    padding: 12px 18px 12px 18px;
-    font-size: 18px;
-    border: 2px solid white;
-    transition: 150ms ease-out;
-}
-.home_button3:hover{
-    color: black;
-    background-color: white;
 }

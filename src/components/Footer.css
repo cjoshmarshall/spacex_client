@@ -8,7 +8,7 @@
 
 .footer_container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-self: center;
     width: 70%;
 }
@@ -19,11 +19,15 @@
 
 .footer_order{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 80%;
+    list-style: none;
 }
 
 .footer_list{
+    margin: 0 10px;
+    padding: 0;
     color: white;
     transition: 150ms ease-out;
 }
