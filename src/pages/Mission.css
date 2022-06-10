@@ -1,0 +1,14 @@
+.mission{
+    background-image: url("../assets/mission1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mission_container1{
+    height: 100vh;
+}
+
+.mission_container2{
+    height: 100vh;
+    background-color: black;
+}

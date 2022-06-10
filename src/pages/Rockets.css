@@ -1,0 +1,9 @@
+.rockets{
+    background-image: url("../assets/rockets1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rockets_container1{
+    height: 100vh;
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  color: white;
+  background-color: black;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection{
+  color: black;
+  background: white;
+}
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+}

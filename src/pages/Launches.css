@@ -1,0 +1,9 @@
+.launches{
+    background-image: url("../assets/launches1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.launches_container1{
+    height: 100vh;
+}

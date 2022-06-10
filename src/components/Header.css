@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 36px;
+}
+
+.header_container{
+    display: block;
+}
+
+.header_logo{
+    height: 32px;
+}
+
+.header_order{
+    display: flex;
+    justify-content: space-between;
+    width: 384px;
+}
+.header_list{
+    font-size: 20px;
+}
+
+.header_link{
+    display: inline-block;
+    position: relative;
+}
+.header_link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 150ms ease-out;
+}
+.header_link:hover::after{
+    width: 100%;
+}
