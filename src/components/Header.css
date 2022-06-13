@@ -1,14 +1,18 @@
 .header{
-    position: fixed;
+    display: block;
     margin: auto;
+    position: fixed;
+    top: 0;
     width: 100%;
+    transition: top ease-out 250ms;
+    z-index: 1;
 }
 
 .header_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 36px;
+    margin: 24px 36px;
 }
 
 .header_subcontainer{
@@ -46,4 +50,62 @@
 }
 .header_link:hover::after{
     width: 100%;
+}
+
+.header_hamburger{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header_order{
+        display: none;
+    }
+
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 24px;
+    }
+
+    .header_list{
+        display: block;
+    }
+    
+    .header_hamburger {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: all 500ms ease-in-out;
+      }
+      .header_menu {
+        width: 20px;
+        height: 2px;
+        background: white;
+        border-radius: 5px;
+        transition: all 500ms ease-in-out;
+      }
+      
+      .header_menu::before,.header_menu::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: white;
+        border-radius: 5px;
+        transition: all .500ms ease-in-out;
+      }
+
+      .header_menu::before {
+        transform: translateY(-7px);
+      }
+      .header_menu::after {
+        transform: translateY(7px);
+      }
+
 }

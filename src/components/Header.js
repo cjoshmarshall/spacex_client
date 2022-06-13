@@ -4,8 +4,26 @@ import logo from "../assets/logo.png"
 import "./Header.css"
 
 function Header() {
+
+    var prevScrollpos=window.pageYOffset;
+      window.onscroll=()=>{
+      var currentScrollPos=window.pageYOffset;
+        if (prevScrollpos>currentScrollPos) {
+          document.getElementById('header').style.top = "0";
+        } else {
+          document.getElementById('header').style.top = "-100px";
+        }
+        prevScrollpos=currentScrollPos;
+    }
+    
+
+    const handleToggle=()=>{
+        document.getElementById("navbar").style.width="100%"
+    }
+
+
   return (
-    <div className='header'>
+    <div className='header' id='header'>
         <div className='header_container'>
             <div className='header_subcontainer'>
                     <Link to="/">
@@ -29,6 +47,9 @@ function Header() {
                     </Link>
                 </li>
             </ul>
+            <div className='header_hamburger' onClick={handleToggle}>
+                <div className='header_menu'></div>
+            </div>
         </div>
     </div>
   )

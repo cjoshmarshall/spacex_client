@@ -1,0 +1,139 @@
+.launch{
+    height: fit-content;
+}
+
+.launch_container1{
+    display: flex;
+    margin: auto;
+    height: 100vh;
+}
+
+.launch_subcontainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.launch_back{
+    display: block;
+    margin: 64px 0 24px 0;
+    width: 140px;
+    transition: transform 500ms;
+    z-index: 1;
+}
+.launch_back:hover{
+    transform: translateX(-20px);
+    cursor: pointer;
+}
+.launch_video{
+    width: 840px;
+    height: 480px;
+}
+
+
+.launch_container2{
+    display: block;
+    height: fit-content;
+}
+
+.launch_subcontainer2{
+    display: block;
+    margin: auto;
+    padding: 56px 0;
+    width: 840px;
+}
+
+.launch_date{
+    text-transform: uppercase;
+}
+
+.launch_title{
+    margin: 20px auto;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.launch_description{
+    font-size: 24px;
+    margin: 5px auto;
+}
+
+.launch_imageContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 25px;
+    margin: auto;
+}
+
+.launch_image{
+    margin: auto;
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .launch_imageContainer{
+        grid-template-columns: 1fr 1fr;
+    }}
+
+
+@media only screen and (max-width: 992px) {
+    
+    .launch_video{  
+        width: 700px;
+        height: 480px;
+    }
+    .launch_subcontainer2{
+        padding: 16px 24px;
+        width: 700px;
+    }
+    .launch_date{
+        font-size: 20px;
+    }
+    .launch_title{
+        font-size: 32px;
+    }    
+    .launch_description{
+        font-size: 20px;
+    }
+ 
+    .launch_imageContainer{
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .launch_back{
+        display: none;
+    }
+    .launch_video{  
+        width: 480px;
+        height: 360px;
+    }
+    
+    .launch_subcontainer2{
+        padding: 16px 24px;
+        width: fit-content;
+    }
+    .launch_date{
+        font-size: 16px;
+    }
+    .launch_title{
+        font-size: 28px;
+    }    
+    .launch_description{
+        font-size: 16px;
+    }
+    .launch_imageContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+        margin: 20px 0;
+    }
+}
+
+

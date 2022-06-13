@@ -7,7 +7,7 @@ function Footer() {
     <div className='footer'>
         <div className='footer_container'>
             <p className='footer_title'>SPACEX@2022</p>
-            <ul className='flex justify-between w-[80%] footer_order'>
+            <ul className='footer_order'>
                 <li><Link to="" className='footer_list'>FACEBOOK</Link></li>
                 <li><Link to="" className='footer_list'>TWITTER</Link></li>
                 <li><Link to="" className='footer_list'>YOUTUBE</Link></li>
