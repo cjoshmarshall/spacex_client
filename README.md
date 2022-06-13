@@ -13,7 +13,7 @@ Moment is a JS library  helps in parsing, validating, manipulating and displayin
 Axios is a library used to make HTTP requests from node. js or XMLHttpRequests from the browser and it supports the Promise API that is native to JS.
 <hr>
 
-## Architucture
+## Architecture
 
 The app contains the Homepage which lands on load. The Hompage contains three sub-pages, Mission, Launches & Rockets with a top bar to navigate the sub-pages.
 
