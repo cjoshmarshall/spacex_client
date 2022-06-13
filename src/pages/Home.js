@@ -18,7 +18,9 @@ function Home() {
           <p className='home_description1'>When we see the earth from space, we see ourselves as a whole.</p>
           <h1 className='home_author1'>- STEPHEN HAWKING</h1>
           <div className='home_buttonContainer1'>
-            <button className='home_button1'>RECENT LAUNCHES</button>
+              <Link to='/launches'>
+                <button className='home_button1'>RECENT LAUNCHES</button>
+              </Link>
           </div>
         </div>
       </div>
