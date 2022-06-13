@@ -1,3 +1,6 @@
 # SpaceX
 
-The SpaceX app was built using React.
+Theis SpaceX app was developed using React.
+<hr/>
+
+
