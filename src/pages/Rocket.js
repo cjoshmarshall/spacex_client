@@ -31,6 +31,7 @@ function Rocket() {
   
     const [index, setIndex] = useState(0) 
     const timeoutRef = useRef(null);
+    console.log(timeoutRef)
 
   
     function resetTimeout() {
@@ -138,9 +139,9 @@ function Rocket() {
         <div className='rocket_container5'>
             <div className='rocket_subcontainer5'>
                 <div className='rocket_innercontainer5'>
-                {rocket.flickr_images && rocket.flickr_images.map(item=>(
-                <div className='rocket_imageContainer'>
-                    <img src={item} alt=' ' className='rocket_image' key={item} style={{ transform: `translateX(${-index*100}%)`}}/>
+                {rocket.flickr_images && rocket.flickr_images.map((item,index)=>(
+                <div className='rocket_imageContainer' key={index} >
+                    <img src={item} alt=' ' className='rocket_image'style={{ transform: `translateX(${-index*100}%)`}}/>
                 </div>
                 ))}
             </div></div>
