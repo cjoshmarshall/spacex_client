@@ -34,10 +34,10 @@ function Rocket() {
     console.log(timeoutRef)
 
   
-    function resetTimeout() {
+    const resetTimeout=()=>{
       if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
       }
+        console.log(timeoutRef.current)
     }
   
     useEffect(() => {
