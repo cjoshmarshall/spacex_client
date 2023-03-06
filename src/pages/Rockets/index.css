@@ -1,0 +1,63 @@
+.rockets {
+  background-image: url("../../assets/images/rockets1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rockets_container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.rockets_title1 {
+  font-size: 64px;
+}
+
+.rockets_container2 {
+  height: fit-content;
+  background-color: black;
+}
+
+.rockets_subcontainer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 40px;
+  gap: 20px;
+}
+
+.rockets_bordercontainer2 {
+  display: block;
+  margin: 40px auto;
+}
+
+.rockets_name {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.rockets_image {
+  display: block;
+  height: 350px;
+  width: 100%;
+}
+
+.rockets_buttonContainer {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rockets_title1 {
+    font-size: 48px;
+  }
+  .rockets_subcontainer2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 80px 40px;
+    gap: 20px;
+  }
+  .rockets_image {
+    height: 250px;
+  }
+}

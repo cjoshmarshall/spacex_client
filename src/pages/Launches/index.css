@@ -1,0 +1,141 @@
+.launches {
+  background-image: url("../../assets/images/launches1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.launches_container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.launches_title1 {
+  font-size: 64px;
+}
+
+.launches_container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../assets/images/launches2.jpg");
+  background-size: cover;
+}
+
+.launches_subcontainer2 {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.launches_description2 {
+  margin: 5px 0;
+  font-size: 26px;
+}
+
+.launches_container3 {
+  height: fit-content;
+  background-color: black;
+}
+
+.launches_subcontainer3 {
+  padding: 40px 40px 80px 40px;
+}
+
+.launches_title3 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.launches_innercontainer3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+.launches_bordercontainer3 {
+  display: block;
+  margin: 40px auto;
+}
+
+.launches_name {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.launches_date {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.launches_image {
+  display: block;
+  height: 200px;
+  width: auto;
+  margin: auto;
+}
+
+.launches_buttonContainer3 {
+  margin-top: 40px;
+}
+
+.launches_moreContainer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .launches {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .launches_title1 {
+    font-size: 48px;
+  }
+
+  .launches_container2 {
+    background-size: cover;
+    background-position: center;
+  }
+  .launches_subcontainer2 {
+    width: 75%;
+  }
+  .launches_description2 {
+    font-size: 20px;
+  }
+
+  .launches_title3 {
+    font-size: 28px;
+  }
+  .launches_subcontainer3 {
+    padding: 40px 0 80px 0;
+  }
+  .launches_innercontainer3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .launches_bordercontainer3 {
+    margin: 20px auto;
+  }
+  .launches_name {
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+  .launches_date {
+    margin-bottom: 4px;
+  }
+  .launches_buttonContainer3 {
+    margin-top: 40px;
+  }
+
+  .launches_image {
+    height: 180px;
+  }
+}

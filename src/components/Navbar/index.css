@@ -1,0 +1,63 @@
+.navbar {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  transition: 300ms;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar_icon {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+}
+
+.navbar_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_order {
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar_list {
+  margin: 55px auto;
+  width: fit-content;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.navbar_hamburger {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.navbar_menu::before,
+.navbar_menu::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: white;
+  border-radius: 5px;
+  transition: all 0.5ms ease-in-out;
+}
+
+.navbar_menu::before {
+  transform: rotate(45deg) translate(-6px, 6px);
+}
+.navbar_menu::after {
+  transform: rotate(-45deg) translate(-6px, -6px);
+}

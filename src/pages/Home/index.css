@@ -1,0 +1,143 @@
+.home_container1 {
+  display: block;
+  height: 100vh;
+  background-image: url("../../assets/images/home1.png");
+  background-size: cover;
+}
+
+.home_subcontainer1 {
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.home_title1 {
+  margin: auto;
+  padding: 128px 0 108px 0;
+  font-size: 48px;
+  letter-spacing: 1.25px;
+}
+
+.home_description1 {
+  font-size: 24px;
+}
+
+.home_author1 {
+  padding: 12px 0 12px 0;
+  font-size: 24px;
+}
+
+.home_buttonContainer1 {
+  padding-top: 108px;
+}
+
+.home_container2 {
+  height: 100vh;
+  background-image: url("../../assets/images/home2.jpg");
+  background-size: cover;
+}
+
+.home_subcontainer2 {
+  display: block;
+  width: 360px;
+}
+
+.home_innercontainer2 {
+  padding: 336px 0 0 64px;
+}
+
+.home_postTitle2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.home_title2 {
+  font-size: 48px;
+}
+
+.home_buttonContainer2 {
+  margin-top: 32px;
+}
+
+.home_container3 {
+  height: 100vh;
+  background-image: url("../../assets/images/home3.jpg");
+  background-size: cover;
+}
+
+.home_subcontainer3 {
+  display: block;
+  width: 100%;
+}
+
+.home_innercontainer3 {
+  padding: 336px 0 0 64px;
+}
+
+.home_postTitle3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.home_title3 {
+  font-size: 48px;
+}
+
+.home_buttonContainer3 {
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 922px) {
+  .home_innercontainer2 {
+    padding: 372px 0 0 50px;
+  }
+  .home_innercontainer3 {
+    padding: 372px 0 0 50px;
+  }
+
+  .home_subcontainer3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home_container1 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .home_title1 {
+    font-size: 28px;
+  }
+  .home_description1 {
+    font-size: 20px;
+  }
+  .home_author1 {
+    font-size: 20px;
+  }
+
+  .home_container2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .home_innercontainer2 {
+    padding: 392px 0 0 30px;
+  }
+  .home_title2 {
+    font-size: 40px;
+  }
+
+  .home_container3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .home_innercontainer3 {
+    padding: 392px 0 0 30px;
+  }
+  .home_title3 {
+    font-size: 40px;
+  }
+}
